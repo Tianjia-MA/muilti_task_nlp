@@ -19,5 +19,14 @@
         python ./inference.py
      6）打包预测结果：
         zip -r ./result.zip ./*.json
-        
+     7）生成docker提交（见2）
+     
 2、Docker使用步骤
+
+
+
+
+3、Reference：
+1-水哥运行流程：https://github.com/finlay-liu/tianchi-multi-task-nlp
+2、Linux 终端运行相对路径报错：改成绝对路径
+3、参数修改：集中epochs和batchsize，epochs=10，batchsize=8
